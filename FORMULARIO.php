@@ -8,7 +8,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
   $nombre = $conn->real_escape_string($_POST['nombre']);
   $apellido = $conn->real_escape_string($_POST['apellido']);
   $mensaje = $conn->real_escape_string($_POST['mensaje']);
-  $conn->query("INSERT INTO contactos (nombre,mensaje) VALUES ('$nombre','$mensaje')");
+  $conn->query("INSERT INTO contactos (nombre,mensaje,apellido) VALUES ('$nombre','$apellido','$mensaje')");
 
   echo "¡Guardado!";
 }
