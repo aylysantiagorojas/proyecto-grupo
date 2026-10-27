@@ -6,13 +6,16 @@ $conn->query("CREATE TABLE IF NOT EXISTS contactos (id INT AUTO_INCREMENT PRIMAR
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
   $nombre = $conn->real_escape_string($_POST['nombre']);
+  $apellido = $conn->real_escape_string($_POST['apellido']);
   $mensaje = $conn->real_escape_string($_POST['mensaje']);
   $conn->query("INSERT INTO contactos (nombre,mensaje) VALUES ('$nombre','$mensaje')");
+
   echo "¡Guardado!";
 }
 ?>
 <form method="POST">
 <input name="nombre" placeholder="Tu nombre" required><br><br>
+<input name="apellido" placeholder="Tu apellido" required><br><br>
 <textarea name="mensaje" placeholder="Mensaje" required></textarea><br><br>
 <button>Enviar</button>
 </form>
