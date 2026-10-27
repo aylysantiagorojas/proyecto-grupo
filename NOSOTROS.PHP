@@ -15,13 +15,13 @@
 
         body {
             font-family: Arial, sans-serif;
-            background: #f1f5f9;
-            color: #334155;
+            background: #fddcea;
+            color: #01090e;
             line-height: 1.6;
         }
 
         header {
-            background: linear-gradient(135deg, #0f172a, #0e7490);
+            background: linear-gradient(135deg, #8495bd, #8f6087);
             color: white;
             text-align: center;
             padding: 45px 20px;
@@ -33,7 +33,7 @@
         }
 
         nav {
-            background: #164e63;
+            background: #f399a5;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -51,8 +51,8 @@
 
         nav a:hover,
         nav a.activo {
-            background: #22d3ee;
-            color: #0f172a;
+            background: #cdc7f0;
+            color: #0e0c0c;
         }
 
         main {
@@ -67,7 +67,7 @@
         }
 
         .presentacion h2 {
-            color: #0e7490;
+            color: #010708;
             font-size: 30px;
             margin-bottom: 12px;
         }
@@ -82,7 +82,7 @@
             background: white;
             padding: 28px;
             border-radius: 14px;
-            border-top: 5px solid #06b6d4;
+            border-top: 5px solid #6b54ee;
             box-shadow: 0 5px 18px rgba(15, 23, 42, 0.08);
             transition: transform 0.3s;
         }
@@ -92,7 +92,7 @@
         }
 
         .tarjeta h3 {
-            color: #0e7490;
+            color: #0a0a0a;
             margin-bottom: 12px;
             font-size: 22px;
         }
@@ -108,18 +108,18 @@
             padding: 28px;
             border-radius: 14px;
             text-align: center;
-            box-shadow: 0 5px 18px rgba(15, 23, 42, 0.08);
+            box-shadow: 0 5px 18px hsla(310, 61%, 71%, 0.08);
         }
 
         .equipo h2 {
-            color: #0e7490;
+            color: #6243b6;
             margin-bottom: 12px;
         }
 
         .boton {
             display: inline-block;
             margin-top: 22px;
-            background: #0e7490;
+            background: #ee566b;
             color: white;
             padding: 12px 24px;
             text-decoration: none;
@@ -128,11 +128,11 @@
         }
 
         .boton:hover {
-            background: #164e63;
+            background: #010405;
         }
 
         footer {
-            background: #0f172a;
+            background: #398bb1;
             color: white;
             text-align: center;
             padding: 22px;
